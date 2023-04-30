@@ -1,0 +1,56 @@
+** Model Selection **
+
+After evaluating the performance of each model, we can select the one that performs best according to our chosen metrics. 
+In this case, we can compare the MAE, MSR, RMSE and R2 scores for each model and choose the one that has the lowest MSE and MAE and 
+the highest R2 score.
+
+Based on the evaluation, we can see that the Random Forest Regression model has the lowest  MAE, MSR, RMSE and the highest R2 score. 
+Therefore, we can select this model as our final model.
+
+
+** Strengths and Weaknesses of each model **
+
+*Support Vector Regression:*
+
+Strengths:
+1. Works well with high-dimensional datasets.
+2. Effective in cases where the number of features is much greater than the number of samples.
+3. Can handle non-linear relationships between features and target variable using different kernel functions.
+
+Weaknesses:
+1. Sensitive to the choice of kernel function and regularization parameters.
+2. Can be computationally expensive and time-consuming for large datasets.
+3. Compulsory to apply feature scaling.
+
+*Decision Tree Regression:*
+
+Strengths:
+1. Simple and easy to understand.
+2. Can handle both numerical and categorical features.
+3. Can handle non-linear relationships between features and target variable.
+
+Weaknesses:
+1. Tends to overfit the training data, especially when the tree is deep.
+2. Sensitive to small variations in the training data.
+3. Can create biased trees if some classes dominate.
+
+*Random Forest Regression:*
+
+Strengths:
+1. Good performance on many  complex problems
+2. Can handle both numerical and categorical features.
+3. Can handle non-linear relationships between features and target variable.
+
+Weaknesses:
+1. Can be computationally expensive and time-consuming for large datasets.
+2. Can be difficult to interpret compared to decision trees.
+3. No interpretability.
+
+
+** Why I chose the best-performing model? **
+
+Based on the evaluation metrics, we chose the Random Forest Regression model as the best-performing model for the  Housing dataset.
+It had the lowest MAE, MSR, RMSE and the highest r2 score among the three models that we trained.
+Random Forest Regression is a powerful and flexible machine learning algorithm that is capable of capturing complex non-linear relationships between features and target variables, 
+while also reducing overfitting by combining multiple decision trees. 
+Furthermore, it can handle both numerical and categorical features, which is useful in datasets with a mix of feature types. 
