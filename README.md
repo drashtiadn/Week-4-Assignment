@@ -10,4 +10,5 @@ Dataset:
 For this assignment, we will use the "housing" dataset from the UCI Machine Learning Repository 
 (https://archive.ics.uci.edu/ml/machine-learning-databases/housing). The dataset contains 
 information on various attributes of housing, such as CRIM, ZN, INDUS, CHAS, NOX, RM, AGE, DIS, 
-RAD, TAX, PTRATIO, B, LSTAT, MEDV.
+RAD, TAX, PTRATIO, B, LSTAT, MEDV. s. The goal is to predict the Median Value(MEDV) based on its 
+attributes.
