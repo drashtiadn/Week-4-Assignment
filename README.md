@@ -6,5 +6,5 @@ The goal of this assignment is to practice implementing various advanced regress
 Dataset:
 
 For this assignment, we will use the "housing" dataset from the UCI Machine Learning Repository 
-(https://archive.ics.uci.edu/ml/machine-learning-databases/housing).
+(https://archive.ics.uci.edu/ml/machine-learning-databases/housing). The dataset contains information on various attributes of housing, such as .
 
